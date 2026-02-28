@@ -45,20 +45,20 @@
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Trading_Bot-FF6B6B?style=for-the-badge&logo=bitcoin&logoColor=white" /><br/>
-      <sub><b>Bot Trading Crypto IA</b></sub><br/>
-      <sub>Microservices + Machine Learning</sub>
+    <td align="center" width="33%" valign="top">
+      <img src="https://img.shields.io/badge/Trading_Bot-FF6B6B?style=for-the-badge&logo=bitcoin&logoColor=white" /><br/><br/>
+      <b>Bot Trading Crypto IA</b><br/>
+      Microservices + ML
     </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Companion-58A6FF?style=for-the-badge&logo=codespaces&logoColor=white" /><br/>
-      <sub><b>Companion Dev</b></sub><br/>
-      <sub>Web & Mobile UI pour Claude Code</sub>
+    <td align="center" width="33%" valign="top">
+      <img src="https://img.shields.io/badge/Companion-58A6FF?style=for-the-badge&logo=codespaces&logoColor=white" /><br/><br/>
+      <b>Companion Dev</b><br/>
+      Web & Mobile UI
     </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Gantt_BTP-4CAF50?style=for-the-badge&logo=googlesheets&logoColor=white" /><br/>
-      <sub><b>Gantt BTP</b></sub><br/>
-      <sub>Gestion de projet BTP</sub>
+    <td align="center" width="33%" valign="top">
+      <img src="https://img.shields.io/badge/Gantt_BTP-4CAF50?style=for-the-badge&logo=googlesheets&logoColor=white" /><br/><br/>
+      <b>Gantt BTP</b><br/>
+      Gestion de projet
     </td>
   </tr>
 </table>
