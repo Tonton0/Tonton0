@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="header.svg" alt="vonboss - VB Création" width="850" />
+  <img src="logo.png" alt="VB Création" width="150" />
+</p>
+
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=500&height=35&lines=D%C3%A9veloppeur+Full-Stack;Fondateur+de+VB+Cr%C3%A9ation;Python+%7C+TypeScript+%7C+React+%7C+IA" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
