@@ -1,6 +1,12 @@
-# Bonjour, je suis vonboss
+<p align="center">
+  <img src="logo.png" alt="VB Creation" width="150" />
+</p>
 
-**Developpeur Full-Stack** chez **VB Creation**
+<h1 align="center">Bonjour, je suis vonboss</h1>
+
+<p align="center">
+  <strong>Developpeur Full-Stack</strong> chez <strong>VB Creation</strong>
+</p>
 
 ---
 
