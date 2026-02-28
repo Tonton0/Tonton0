@@ -51,9 +51,9 @@
       Microservices + ML
     </td>
     <td align="center" width="33%" valign="top">
-      <img src="https://img.shields.io/badge/Companion-58A6FF?style=for-the-badge&logo=codespaces&logoColor=white" /><br/><br/>
-      <b>Companion Dev</b><br/>
-      Web & Mobile UI
+      <img src="https://img.shields.io/badge/Tower-58A6FF?style=for-the-badge&logo=codespaces&logoColor=white" /><br/><br/>
+      <b>Tower</b><br/>
+      Controle distant d'agents IA
     </td>
     <td align="center" width="33%" valign="top">
       <img src="https://img.shields.io/badge/Gantt_BTP-4CAF50?style=for-the-badge&logo=googlesheets&logoColor=white" /><br/><br/>
