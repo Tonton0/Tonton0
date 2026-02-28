@@ -2,49 +2,80 @@
   <img src="logo.png" alt="VB Creation" width="150" />
 </p>
 
-<h1 align="center">Bonjour, je suis vonboss</h1>
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=70&lines=Developpeur+Full-Stack;Fondateur+de+VB+Creation;Python+%7C+TypeScript+%7C+React+%7C+IA" alt="Typing SVG" /></a>
+</p>
 
 <p align="center">
-  <strong>Developpeur Full-Stack</strong> chez <strong>VB Creation</strong>
+  <img src="https://komarev.com/ghpvc/?username=Tonton0&label=Visiteurs&color=58A6FF&style=flat-square" alt="Profile views" />
 </p>
 
 ---
 
 ### A propos
 
-- Developpeur passione par le web, l'IA et la blockchain
-- Fondateur de **VB Creation**
-- Toujours en train d'apprendre et de construire
+```
+> Developpeur passione par le web, l'IA et la blockchain
+> Fondateur de VB Creation
+> Toujours en train d'apprendre et de construire
+```
 
 ---
 
-### Technologies & Outils
+### Stack technique
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude_AI-191919?style=for-the-badge&logo=anthropic&logoColor=white" />
+</p>
 
 ---
 
 ### Projets phares
 
-| Projet | Description |
-|--------|-------------|
-| **Bot Trading Crypto IA** | Systeme avance de trading crypto avec microservices et Machine Learning |
-| **Companion Dev** | Interface Web & Mobile pour Claude Code & Codex |
-| **Gantt BTP** | Application de gestion de projet pour le secteur BTP / Pierre naturelle |
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Trading_Bot-FF6B6B?style=for-the-badge&logo=bitcoin&logoColor=white" /><br/>
+      <sub><b>Bot Trading Crypto IA</b></sub><br/>
+      <sub>Microservices + Machine Learning</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Companion-58A6FF?style=for-the-badge&logo=codespaces&logoColor=white" /><br/>
+      <sub><b>Companion Dev</b></sub><br/>
+      <sub>Web & Mobile UI pour Claude Code</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Gantt_BTP-4CAF50?style=for-the-badge&logo=googlesheets&logoColor=white" /><br/>
+      <sub><b>Gantt BTP</b></sub><br/>
+      <sub>Gestion de projet BTP</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### Stats GitHub
+### Contributions
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tonton0&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tonton0&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Tonton0/Tonton0/blob/output/github-snake-dark.svg" />
+    <img alt="Snake animation" src="https://github.com/Tonton0/Tonton0/blob/output/github-snake.svg" />
+  </picture>
 </p>
 
 ---
