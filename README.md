@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=70&lines=Developpeur+Full-Stack;Fondateur+de+VB+Creation;Python+%7C+TypeScript+%7C+React+%7C+IA" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=70&lines=D%C3%A9veloppeur+Full-Stack;Fondateur+de+VB+Cr%C3%A9ation;Python+%7C+TypeScript+%7C+React+%7C+IA" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
@@ -12,11 +12,11 @@
 
 ---
 
-### A propos
+### À propos
 
 ```
-> Developpeur passione par le web, l'IA et la blockchain
-> Fondateur de VB Creation
+> Développeur passionné par le web, l'IA et la blockchain
+> Fondateur de VB Création
 > Toujours en train d'apprendre et de construire
 ```
 
@@ -48,12 +48,12 @@
     <td align="center" width="33%" valign="top">
       <img src="https://img.shields.io/badge/Trading_Bot-FF6B6B?style=for-the-badge&logo=bitcoin&logoColor=white" /><br/><br/>
       <b>Bot Trading Crypto IA</b><br/>
-      Microservices + ML
+      Microservices + ML avancé
     </td>
     <td align="center" width="33%" valign="top">
       <img src="https://img.shields.io/badge/Tower-58A6FF?style=for-the-badge&logo=codespaces&logoColor=white" /><br/><br/>
       <b>Tower</b><br/>
-      Controle distant d'agents IA
+      Contrôle distant d'agents IA
     </td>
     <td align="center" width="33%" valign="top">
       <img src="https://img.shields.io/badge/Gantt_BTP-4CAF50?style=for-the-badge&logo=googlesheets&logoColor=white" /><br/><br/>
