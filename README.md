@@ -113,14 +113,19 @@ Application metier complete : planning Gantt, suivi de chantiers, gestion des re
 
 ---
 
-### Contributions
+### En chiffres
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tonton0&show_icons=true&theme=github_dark&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://img.shields.io/badge/Projets-9_repos-58A6FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Stack-Python_%7C_TypeScript_%7C_React-3178C6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Infra-Docker_%7C_Cloudflare-2496ED?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tonton0&layout=compact&theme=github_dark&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="Top Languages" />
+  <img src="https://img.shields.io/badge/Python-Backend_%26_ML-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-Frontend_%26_Full--Stack-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-TimescaleDB_%26_PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/DevOps-Docker_%26_CI%2FCD-2496ED?style=flat-square&logo=docker&logoColor=white" />
 </p>
 
 ---
