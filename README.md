@@ -3,16 +3,18 @@
 </p>
 
 <p align="center">
+  <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-000?style=flat-square&logo=safari&logoColor=white" alt="Website" /></a>&nbsp;
+  <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/contact-email-58A6FF?style=flat-square&logo=protonmail&logoColor=white" alt="Email" /></a>&nbsp;
   <img src="https://komarev.com/ghpvc/?username=Tonton0&label=Visiteurs&color=58A6FF&style=flat-square" alt="Profile views" />
 </p>
 
 ---
 
-### À propos
+### A propos
 
 ```
-> Développeur passionné par le web, l'IA et la blockchain
-> Fondateur de VB Création
+> Developpeur passionne par le web, l'IA et la finance
+> Fondateur de VB Creation — vbcreation.io
 > Toujours en train d'apprendre et de construire
 ```
 
@@ -23,38 +25,83 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Claude_AI-191919?style=for-the-badge&logo=anthropic&logoColor=white" />
 </p>
 
 ---
 
-### Projets phares
+### Projets
 
 <table>
   <tr>
-    <td align="center" width="33%" valign="top">
-      <img src="https://img.shields.io/badge/Trading_Bot-FF6B6B?style=for-the-badge&logo=bitcoin&logoColor=white" /><br/><br/>
+    <td align="center" width="50%" valign="top">
+      <a href="https://simtaux.com">
+        <img src="https://img.shields.io/badge/Simtaux-3DDC84?style=for-the-badge&logo=chart.js&logoColor=white" />
+      </a>
+      <br/><br/>
+      <b>Simtaux</b> — <a href="https://simtaux.com">simtaux.com</a><br/>
+      Simulateurs financiers interactifs & educatifs<br/>
+      <sub>Next.js 16 &bull; React 19 &bull; TypeScript &bull; Chart.js &bull; Cloudflare Pages</sub><br/><br/>
+      <img src="https://img.shields.io/badge/v1.4.0-green?style=flat-square" />
+      <img src="https://img.shields.io/badge/SSG-100%25_statique-blue?style=flat-square" />
+      <img src="https://img.shields.io/badge/en_ligne-simtaux.com-brightgreen?style=flat-square" />
+    </td>
+    <td align="center" width="50%" valign="top">
+      <img src="https://img.shields.io/badge/Trading_Bot-FF6B6B?style=for-the-badge&logo=bitcoin&logoColor=white" />
+      <br/><br/>
       <b>Bot Trading Crypto IA</b><br/>
-      Microservices + ML avancé
+      Systeme de trading automatise avec ML avance<br/>
+      <sub>Python &bull; FastAPI &bull; PyTorch &bull; TimescaleDB &bull; Redis &bull; Docker</sub><br/><br/>
+      <img src="https://img.shields.io/badge/microservices-architecture-blue?style=flat-square" />
+      <img src="https://img.shields.io/badge/ML-PyTorch-red?style=flat-square" />
     </td>
-    <td align="center" width="33%" valign="top">
-      <img src="https://img.shields.io/badge/Tower-58A6FF?style=for-the-badge&logo=codespaces&logoColor=white" /><br/><br/>
-      <b>Tower</b><br/>
-      Contrôle distant d'agents IA
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <img src="https://img.shields.io/badge/Companion-58A6FF?style=for-the-badge&logo=codespaces&logoColor=white" />
+      <br/><br/>
+      <b>Companion Dev</b><br/>
+      Interface Web & Mobile pour Claude Code & Codex<br/>
+      <sub>Next.js &bull; WebSocket &bull; ZeroTier &bull; Acces distant</sub><br/><br/>
+      <img src="https://img.shields.io/badge/remote-access-blue?style=flat-square" />
+      <img src="https://img.shields.io/badge/AI-agents-purple?style=flat-square" />
     </td>
-    <td align="center" width="33%" valign="top">
-      <img src="https://img.shields.io/badge/Gantt_BTP-4CAF50?style=for-the-badge&logo=googlesheets&logoColor=white" /><br/><br/>
+    <td align="center" width="50%" valign="top">
+      <img src="https://img.shields.io/badge/AI_Agents-9B59B6?style=for-the-badge&logo=openai&logoColor=white" />
+      <br/><br/>
+      <b>AI Agents System</b><br/>
+      Systeme multi-agents IA avec orchestration<br/>
+      <sub>FastAPI &bull; Next.js &bull; CrewAI &bull; Docker</sub><br/><br/>
+      <img src="https://img.shields.io/badge/multi--agents-CrewAI-purple?style=flat-square" />
+      <img src="https://img.shields.io/badge/full--stack-app-blue?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <img src="https://img.shields.io/badge/Gantt_BTP-4CAF50?style=for-the-badge&logo=googlesheets&logoColor=white" />
+      <br/><br/>
       <b>Gantt BTP</b><br/>
-      Gestion de projet
+      Gestion de projet pour le BTP / Pierre naturelle<br/>
+      <sub>Application metier &bull; Planning &bull; Suivi chantiers</sub><br/><br/>
+      <img src="https://img.shields.io/badge/BTP-metier-green?style=flat-square" />
+    </td>
+    <td align="center" width="50%" valign="top">
+      <img src="https://img.shields.io/badge/VRFPS-E91E63?style=for-the-badge&logo=unity&logoColor=white" />
+      <br/><br/>
+      <b>VRFPS</b><br/>
+      Projet VR / FPS<br/>
+      <sub>Game dev</sub><br/><br/>
+      <img src="https://img.shields.io/badge/VR-gaming-pink?style=flat-square" />
     </td>
   </tr>
 </table>
@@ -68,14 +115,12 @@
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Tonton0/Tonton0/blob/output/github-snake-dark.svg" />
-    <img alt="Snake animation" src="https://github.com/Tonton0/Tonton0/blob/output/github-snake.svg" />
-  </picture>
+  <img src="https://github-readme-stats.vercel.app/api?username=Tonton0&show_icons=true&theme=github_dark&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </p>
 
 ---
 
 <p align="center">
-  <i>« Construire, automatiser, innover. »</i>
+  <i>« Construire, automatiser, innover. »</i><br/>
+  <sub><a href="https://vbcreation.io">vbcreation.io</a> &bull; <a href="mailto:contact@vbcreation.io">contact@vbcreation.io</a></sub>
 </p>
