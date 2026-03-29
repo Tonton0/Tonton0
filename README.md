@@ -116,11 +116,11 @@ Application metier complete : planning Gantt, suivi de chantiers, gestion des re
 ### Contributions
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tonton0&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Tonton0&show_icons=true&theme=github_dark&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tonton0&show_icons=true&theme=github_dark&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tonton0&layout=compact&theme=github_dark&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="Top Languages" />
 </p>
 
 ---
