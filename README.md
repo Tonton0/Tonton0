@@ -42,69 +42,74 @@
 
 ### Projets
 
-<table>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <a href="https://simtaux.com">
-        <img src="https://img.shields.io/badge/Simtaux-3DDC84?style=for-the-badge&logo=chart.js&logoColor=white" />
-      </a>
-      <br/><br/>
-      <b>Simtaux</b> — <a href="https://simtaux.com">simtaux.com</a><br/>
-      Simulateurs financiers interactifs & educatifs<br/>
-      <sub>Next.js 16 &bull; React 19 &bull; TypeScript &bull; Chart.js &bull; Cloudflare Pages</sub><br/><br/>
-      <img src="https://img.shields.io/badge/v1.4.0-green?style=flat-square" />
-      <img src="https://img.shields.io/badge/SSG-100%25_statique-blue?style=flat-square" />
-      <img src="https://img.shields.io/badge/en_ligne-simtaux.com-brightgreen?style=flat-square" />
-    </td>
-    <td align="center" width="50%" valign="top">
-      <img src="https://img.shields.io/badge/Trading_Bot-FF6B6B?style=for-the-badge&logo=bitcoin&logoColor=white" />
-      <br/><br/>
-      <b>Bot Trading Crypto IA</b><br/>
-      Systeme de trading automatise avec ML avance<br/>
-      <sub>Python &bull; FastAPI &bull; PyTorch &bull; TimescaleDB &bull; Redis &bull; Docker</sub><br/><br/>
-      <img src="https://img.shields.io/badge/microservices-architecture-blue?style=flat-square" />
-      <img src="https://img.shields.io/badge/ML-PyTorch-red?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <img src="https://img.shields.io/badge/Companion-58A6FF?style=for-the-badge&logo=codespaces&logoColor=white" />
-      <br/><br/>
-      <b>Companion Dev</b><br/>
-      Interface Web & Mobile pour Claude Code & Codex<br/>
-      <sub>Next.js &bull; WebSocket &bull; ZeroTier &bull; Acces distant</sub><br/><br/>
-      <img src="https://img.shields.io/badge/remote-access-blue?style=flat-square" />
-      <img src="https://img.shields.io/badge/AI-agents-purple?style=flat-square" />
-    </td>
-    <td align="center" width="50%" valign="top">
-      <img src="https://img.shields.io/badge/AI_Agents-9B59B6?style=for-the-badge&logo=openai&logoColor=white" />
-      <br/><br/>
-      <b>AI Agents System</b><br/>
-      Systeme multi-agents IA avec orchestration<br/>
-      <sub>FastAPI &bull; Next.js &bull; CrewAI &bull; Docker</sub><br/><br/>
-      <img src="https://img.shields.io/badge/multi--agents-CrewAI-purple?style=flat-square" />
-      <img src="https://img.shields.io/badge/full--stack-app-blue?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <img src="https://img.shields.io/badge/Gantt_BTP-4CAF50?style=for-the-badge&logo=googlesheets&logoColor=white" />
-      <br/><br/>
-      <b>Gantt BTP</b><br/>
-      Gestion de projet pour le BTP / Pierre naturelle<br/>
-      <sub>Application metier &bull; Planning &bull; Suivi chantiers</sub><br/><br/>
-      <img src="https://img.shields.io/badge/BTP-metier-green?style=flat-square" />
-    </td>
-    <td align="center" width="50%" valign="top">
-      <img src="https://img.shields.io/badge/VRFPS-E91E63?style=for-the-badge&logo=unity&logoColor=white" />
-      <br/><br/>
-      <b>VRFPS</b><br/>
-      Projet VR / FPS<br/>
-      <sub>Game dev</sub><br/><br/>
-      <img src="https://img.shields.io/badge/VR-gaming-pink?style=flat-square" />
-    </td>
-  </tr>
-</table>
+#### Simtaux — [simtaux.com](https://simtaux.com)
+> Simulateurs financiers interactifs & educatifs
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chart.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/v1.4.0-3DDC84?style=flat-square" />
+</p>
+
+Trois simulateurs (interets composes, credit immobilier, modele bancaire) avec graphiques interactifs, export PDF/CSV, taux BCE en temps reel et 9 articles de blog. Site 100% statique, deploye sur Cloudflare Pages.
+
+---
+
+#### Bot Trading Crypto IA
+> Systeme de trading automatise avec ML avance
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square&logo=timescale&logoColor=black" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+</p>
+
+Architecture microservices avec pipeline ML, backtesting, gestion de risque et execution multi-exchange. Communication Redis PubSub + Kafka.
+
+---
+
+#### Companion Dev
+> Interface Web & Mobile pour Claude Code & Codex
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socket.io&logoColor=white" />
+  <img src="https://img.shields.io/badge/ZeroTier-FFB441?style=flat-square&logo=zerotier&logoColor=black" />
+</p>
+
+Lance des sessions, stream les reponses, approuve les outils — le tout depuis un navigateur ou mobile via acces distant securise.
+
+---
+
+#### AI Agents System
+> Systeme multi-agents IA avec orchestration
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/CrewAI-9B59B6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+</p>
+
+Backend FastAPI + Frontend Next.js pour orchestrer des equipes d'agents IA specialises via CrewAI.
+
+---
+
+#### Gantt BTP
+> Gestion de projet pour le BTP / Pierre naturelle
+
+Application metier complete : planning Gantt, suivi de chantiers, gestion des ressources pour Marbrerie Baerlocher.
+
+---
+
+#### VRFPS
+> Projet VR / FPS — Game dev
 
 ---
 
