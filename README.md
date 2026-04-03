@@ -74,7 +74,7 @@ Architecture microservices avec pipeline ML, backtesting, gestion de risque et e
 
 ---
 
-#### Companion Dev
+#### Companion innovation
 > Interface Web & Mobile pour Claude Code & Codex
 
 <p align="center">
