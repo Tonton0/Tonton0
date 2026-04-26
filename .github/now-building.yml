@@ -1,0 +1,24 @@
+# Source de vérité pour la section "Now Building" du README.
+# Édite ce fichier à la main : le workflow .github/workflows/readme-update.yml
+# régénère la section entre les balises <!-- BUILDING:START --> ... END
+# toutes les 6 h et à chaque push de ce fichier.
+#
+# Statuts conseillés :
+#   🟢 production · 🟡 beta · 🔵 actif · 🟣 R&D · ⚪ pause
+
+items:
+  - status: 🟢
+    name: CortiA
+    desc: "Bot de trading crypto, 13 microservices FastAPI, production stable (21/21 services healthy)"
+
+  - status: 🟢
+    name: COMPANION
+    desc: "UI web pour Claude Code à distance (ZeroTier + 2FA), v0.92.5 prod"
+
+  - status: 🔵
+    name: vbcreation-social
+    desc: "Suite multi-réseaux pilotée par Claude SDK local — Phase 5 (calendrier + historique) en cours"
+
+  - status: 🟣
+    name: VBPaperclip
+    desc: "Superviseur d'instances Paperclip — Quota Guardian Phase 5 complétée"
