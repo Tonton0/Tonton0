@@ -7,13 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://vbcreation.io">vbcreation.io</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:contact@vbcreation.io">contact@vbcreation.io</a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Tonton0&label=vues&color=58A6FF&style=flat-square" alt="vues" />
+  <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-0D1117?style=flat-square&logo=cloudflare&logoColor=white" alt="vbcreation.io" /></a>
+  &nbsp;
+  <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/contact-email-58A6FF?style=flat-square&logo=gmail&logoColor=white&labelColor=24292F" alt="contact" /></a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Tonton0&label=Visiteurs&color=58A6FF&labelColor=24292F&style=flat-square" alt="Visiteurs" />
 </p>
 
 <br/>
@@ -93,9 +91,9 @@ Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK lo
 - **Workflows IA** — orchestration agents Claude (Code SDK, Agent SDK), MCP servers, RAG local
 
 <p align="center">
-  <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/%F0%9F%93%A9%20Discutons%20de%20votre%20projet-1F6FEB?style=for-the-badge&labelColor=1F6FEB" alt="Contact" /></a>
+  <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/discutons-de%20votre%20projet-58A6FF?style=flat-square&logo=gmail&logoColor=white&labelColor=24292F" alt="Discutons de votre projet" /></a>
   &nbsp;
-  <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-0D1117?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Site" /></a>
+  <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-0D1117?style=flat-square&logo=cloudflare&logoColor=white" alt="vbcreation.io" /></a>
 </p>
 
 <br/>
