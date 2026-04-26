@@ -34,13 +34,12 @@ mesurables, des audits OWASP qui passent.
 ## `~ $ ps aux | grep building`
 
 <!-- BUILDING:START -->
-```log
-[ RUN ] CortiA              bot trading crypto · 13 microservices FastAPI · production stable
-[ RUN ] COMPANION           UI Claude Code distant · ZeroTier + 2FA · v0.92.5
-[WORK ] vbcreation-social   suite multi-réseaux · Claude SDK local · phase 4 / 6
-[ R&D ] VBPaperclip         superviseur Paperclip · Quota Guardian phase 5
-```
-<sub>Section régénérée automatiquement.</sub>
+- 🟢 **CortiA** — bot de trading crypto, 13 microservices FastAPI, production stable
+- 🟢 **COMPANION** — UI web pour Claude Code à distance (ZeroTier + 2FA), v0.92.5
+- 🔵 **vbcreation-social** — suite multi-réseaux pilotée par Claude SDK local, phase 4 / 6
+- 🟣 **VBPaperclip** — superviseur d'instances Paperclip, Quota Guardian phase 5
+
+<sub>📅 Auto-régénéré le 2026-04-26 12:28 UTC</sub>
 <!-- BUILDING:END -->
 
 <br/>
