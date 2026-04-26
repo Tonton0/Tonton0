@@ -14,7 +14,7 @@
 
 ```
 > Developpeur passionne par le web, l'IA et la finance
-> Fondateur de VB Creation — vbcreation.io
+> Fondateur de VBCreation — vbcreation.io
 > Toujours en train d'apprendre et de construire
 ```
 
@@ -58,7 +58,7 @@ Trois simulateurs (interets composes, credit immobilier, modele bancaire) avec g
 
 ---
 
-#### Bot Trading Crypto IA
+#### CortiA
 > Systeme de trading automatise avec ML avance
 
 <p align="center">
