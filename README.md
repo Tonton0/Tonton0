@@ -2,7 +2,7 @@
 
 ```bash
 $ whoami
-Tonton0 — fondateur de VBCreation
+Vonboss — fondateur de VBCreation
 $ pwd
 /home/vb/projects → fintech · microservices · AI-native workflows
 $ uptime
