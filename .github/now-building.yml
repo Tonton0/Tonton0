@@ -1,0 +1,22 @@
+# Source de vérité pour la section "En cours" du README.
+# Édite ce fichier puis push : le workflow régénère la section
+# entre <!-- BUILDING:START --> et <!-- BUILDING:END -->.
+#
+# Statuts : 🟢 production · 🟡 beta · 🔵 actif · 🟣 R&D · ⚪ pause
+
+items:
+  - status: 🟢
+    name: CortiA
+    desc: "bot de trading crypto, 13 microservices FastAPI, production stable"
+
+  - status: 🟢
+    name: COMPANION
+    desc: "UI web pour Claude Code à distance (ZeroTier + 2FA), v0.92.5"
+
+  - status: 🔵
+    name: vbcreation-social
+    desc: "suite multi-réseaux pilotée par Claude SDK local, phase 4 / 6"
+
+  - status: 🟣
+    name: VBPaperclip
+    desc: "superviseur d'instances Paperclip, Quota Guardian phase 5"

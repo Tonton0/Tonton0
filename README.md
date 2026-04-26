@@ -1,136 +1,179 @@
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=500&height=35&lines=D%C3%A9veloppeur+Full-Stack;Fondateur+de+VBCreation;Python+%7C+TypeScript+%7C+React+%7C+IA" alt="Typing SVG" /></a>
-</p>
+<br/>
 
-<p align="center">
-  <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-000?style=flat-square&logo=safari&logoColor=white" alt="Website" /></a>&nbsp;
-  <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/contact-email-58A6FF?style=flat-square&logo=protonmail&logoColor=white" alt="Email" /></a>&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Tonton0&label=Visiteurs&color=58A6FF&style=flat-square" alt="Profile views" />
-</p>
-
----
-
-### A propos
-
-```
-> Developpeur passionne par le web, l'IA et la finance
-> Fondateur de VBCreation — vbcreation.io
-> Toujours en train d'apprendre et de construire
+```bash
+$ whoami
+Vonboss — fondateur de VBCreation
+$ pwd
+/home/vb/projects → fintech · microservices · AI-native workflows
+$ uptime
+6 projets en production · 0 démos · 100 % code livré
 ```
 
----
+<p align="center">
+  <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-0D1117?style=flat-square&logo=cloudflare&logoColor=white" alt="vbcreation.io" /></a>
+  &nbsp;
+  <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/contact-email-58A6FF?style=flat-square&logo=gmail&logoColor=white&labelColor=24292F" alt="contact" /></a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Tonton0&label=Visiteurs&color=58A6FF&labelColor=24292F&style=flat-square" alt="Visiteurs" />
+</p>
 
-### Stack technique
+<br/>
+
+```text
+~ $ cat manifesto.txt
+─────────────────────────────────────────────────────────────────
+Je construis l'infrastructure que je voulais avoir :
+fintech crypto auditée, microservices résilients, IA orchestrée
+en local. Pas des démos — du code en production, des chiffres
+mesurables, des audits OWASP qui passent.
+─────────────────────────────────────────────────────────────────
+```
+
+<br/>
+
+## `~ $ ps aux | grep building`
+
+<!-- BUILDING:START -->
+```log
+[ RUN ] CortiA              bot trading crypto · 13 microservices FastAPI · production stable
+[ RUN ] COMPANION           UI Claude Code distant · ZeroTier + 2FA · v0.92.5
+[WORK ] vbcreation-social   suite multi-réseaux · Claude SDK local · phase 4 / 6
+[ R&D ] VBPaperclip         superviseur Paperclip · Quota Guardian phase 5
+```
+<sub>Section régénérée automatiquement.</sub>
+<!-- BUILDING:END -->
+
+<br/>
+
+## `~ $ ls -la projets/`
+
+```text
+drwxr-xr-x  CortiA/              Trading crypto IA — 13 microservices FastAPI
+drwxr-xr-x  COMPANION/           Claude Code à distance via ZeroTier
+drwxr-xr-x  vbcreation.io/       Site vitrine Next.js 16, hero 3D R3F
+drwxr-xr-x  Simtaux/             Simulateurs financiers, calculs Decimal.js
+drwxr-xr-x  Gantt-BTP/           Planning standalone, BTP suisse
+drwxr-xr-x  vbcreation-social/   Social piloté par Claude SDK local
+```
+
+### → CortiA — Trading crypto IA
+
+```yaml
+stack:        FastAPI · TimescaleDB · Redpanda · TFT/EMGNN/RL
+microservices: 13
+status:       21 / 21 services healthy
+latence:      < 20 ms
+throughput:   > 1 800 RPS
+security:     OWASP ASVS 5.0 — 93.8 / 100
+compliance:   MiCA · RGPD
+```
+
+### → COMPANION — Claude Code à distance
+
+```yaml
+stack:        Bun · Hono · React PWA · ZeroTier P2P
+version:      v0.92.5
+auth:         2FA TOTP · TLS auto-signé
+offline:      IndexedDB queue
+audit:        17 findings OWASP corrigés
+deploy:       systemd
+```
+
+### → vbcreation.io — Site vitrine
+
+```yaml
+stack:        Next.js 16 · React 19 · Cloudflare Pages
+chatbot:      Groq + RAG TF-IDF
+lighthouse:   96 / 96 / 100
+i18n:         63 pages · FR / EN / TH
+hero:         R3F (2 000 particules + bloom)
+a11y:         WCAG 2.1 AA
+cost:         0 $ / mois
+```
+
+### → Simtaux — Simulateurs financiers
+
+```yaml
+stack:        Next.js 16 · Decimal.js · Cloudflare SSG
+version:      v1.7.2
+math:         taux BCE auto-fetch · TAEG Newton-Raphson
+tests:        30 Vitest + E2E Playwright
+exports:      PDF (branded) · CSV
+guarantee:    jamais de float sur des €
+```
+
+### → Gantt BTP — Planning standalone
+
+```yaml
+stack:        HTML5 · JS vanilla · Canvas 2D custom
+deps:         zéro · fonctionne en file://
+templates:    6 (façade pierre, intérieur, etc.)
+features:     CPM · EVM · matrice risques
+calendrier:   25 cantons suisses
+i18n:         FR / DE / EN
+```
+
+### → vbcreation-social — Social piloté IA
+
+```yaml
+stack:        FastAPI · ARQ · Telegram bot · Claude SDK local
+réseaux:      7 plateformes
+variantes:    7 par post
+sécurité:     callbacks HMAC signés · 127.0.0.1 only
+infra:        Docker hybride · systemd
+cost:         0 $ / mois
+```
+
+<br/>
+
+## `~ $ env | grep STACK`
+
+```ini
+BACKEND     = python · fastapi · bun · hono · node
+FRONTEND    = next.js-16 · react-19 · typescript · tailwind-4 · shadcn · r3f
+DATA_ML     = timescaledb · postgres · redis · redpanda · pytorch · claude · groq
+INFRA       = docker · traefik · cloudflare · prometheus · grafana · systemd
+SECURITY    = owasp-asvs-5.0 · jwt-hs256 · aes-256-gcm · docker-secrets · 2fa-totp
+```
+
+<br/>
+
+## `~ $ cat services.txt`
+
+```log
+[ AVAILABLE ] Audits sécurité fintech       OWASP ASVS 5.0 · MiCA / RGPD · threat modeling
+[ AVAILABLE ] Architecture microservices    Python · FastAPI · Redis PubSub + Kafka
+[ AVAILABLE ] Frontend premium              Next.js 16 + React 19 · OKLCH · Lighthouse 95+
+[ AVAILABLE ] Workflows IA                  Agents Claude · MCP servers · RAG local
+```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/Discutons%20de%20votre%20projet-58A6FF?style=flat-square&logo=gmail&logoColor=white&labelColor=58A6FF" alt="Discutons de votre projet" /></a>
+  &nbsp;
+  <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-0D1117?style=flat-square&logo=cloudflare&logoColor=white" alt="vbcreation.io" /></a>
+</p>
+
+<br/>
+
+## `~ $ git log --oneline | head`
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Tonton0&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8B949E" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tonton0&theme=default&hide_border=true&ring=0969DA&fire=FF6B6B&currStreakLabel=0969DA" alt="Streak stats" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Claude_AI-191919?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Tonton0&bg_color=0D1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tonton0&color=0969DA&line=0969DA&point=000000&area=true&hide_border=true" alt="Graphe d'activité" />
+  </picture>
 </p>
 
----
+<br/>
 
-### Projets
-
-#### Simtaux — [simtaux.com](https://simtaux.com)
-> Simulateurs financiers interactifs & educatifs
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chart.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-  <img src="https://img.shields.io/badge/v1.4.0-3DDC84?style=flat-square" />
-</p>
-
-Trois simulateurs (interets composes, credit immobilier, modele bancaire) avec graphiques interactifs, export PDF/CSV, taux BCE en temps reel et 9 articles de blog. Site 100% statique, deploye sur Cloudflare Pages.
-
----
-
-#### CortiA
-> Systeme de trading automatise avec ML avance
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square&logo=timescale&logoColor=black" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-</p>
-
-Architecture microservices avec pipeline ML, backtesting, gestion de risque et execution multi-exchange. Communication Redis PubSub + Kafka.
-
----
-
-#### Companion innovation
-> Interface Web & Mobile pour Claude Code & Codex
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socket.io&logoColor=white" />
-  <img src="https://img.shields.io/badge/ZeroTier-FFB441?style=flat-square&logo=zerotier&logoColor=black" />
-</p>
-
-Lance des sessions, stream les reponses, approuve les outils — le tout depuis un navigateur ou mobile via acces distant securise.
-
----
-
-#### AI Agents System
-> Systeme multi-agents IA avec orchestration
-
-<p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrewAI-9B59B6?style=flat-square" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-</p>
-
-Backend FastAPI + Frontend Next.js pour orchestrer des equipes d'agents IA specialises via CrewAI.
-
----
-
-#### Gantt BTP
-> Gestion de projet pour le BTP / Pierre naturelle
-
-Application metier complete : planning Gantt, suivi de chantiers, gestion des ressources pour Marbrerie Baerlocher.
-
----
-
-#### VRFPS
-> Projet VR / FPS — Game dev
-
----
-
-### En chiffres
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Projets-9_repos-58A6FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Stack-Python_%7C_TypeScript_%7C_React-3178C6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Infra-Docker_%7C_Cloudflare-2496ED?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Backend_%26_ML-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-Frontend_%26_Full--Stack-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-TimescaleDB_%26_PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/DevOps-Docker_%26_CI%2FCD-2496ED?style=flat-square&logo=docker&logoColor=white" />
-</p>
-
----
-
-<p align="center">
-  <i>« Construire, automatiser, innover. »</i><br/>
-  <sub><a href="https://vbcreation.io">vbcreation.io</a> &bull; <a href="mailto:contact@vbcreation.io">contact@vbcreation.io</a></sub>
-</p>
+```bash
+$ exit
+# construire · automatiser · innover
+```
