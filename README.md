@@ -10,7 +10,9 @@
   <a href="https://vbcreation.io">vbcreation.io</a>
   &nbsp;·&nbsp;
   <a href="mailto:contact@vbcreation.io">contact@vbcreation.io</a>
-  &nbsp;·&nbsp;
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=Tonton0&label=vues&color=58A6FF&style=flat-square" alt="vues" />
 </p>
 
