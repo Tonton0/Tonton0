@@ -15,7 +15,7 @@ items:
 
   - status: 🔵
     name: vbcreation-social
-    desc: "suite multi-réseaux pilotée par Claude SDK local, phase 5"
+    desc: "suite multi-réseaux pilotée par Claude SDK local, phase 4 / 6"
 
   - status: 🟣
     name: VBPaperclip
