@@ -93,7 +93,9 @@ Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK lo
 - **Workflows IA** — orchestration agents Claude (Code SDK, Agent SDK), MCP servers, RAG local
 
 <p align="center">
-  <a href="mailto:contact@vbcreation.io">📩 Discutons de votre projet</a>
+  <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/%F0%9F%93%A9%20Discutons%20de%20votre%20projet-1F6FEB?style=for-the-badge&labelColor=1F6FEB" alt="Contact" /></a>
+  &nbsp;
+  <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-0D1117?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Site" /></a>
 </p>
 
 <br/>
