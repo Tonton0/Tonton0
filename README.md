@@ -1,10 +1,13 @@
 <br/>
 
-<p align="center">
-  <a href="https://vbcreation.io">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&height=34&lines=Fondateur+de+VBCreation;Architecte+fintech+%C2%B7+microservices;Frontend+premium+%C2%B7+AI-native+workflows" alt="Accroche" />
-  </a>
-</p>
+```bash
+$ whoami
+Tonton0 — fondateur de VBCreation
+$ pwd
+/home/vb/projects → fintech · microservices · AI-native workflows
+$ uptime
+6 projets en production · 0 démos · 100 % code livré
+```
 
 <p align="center">
   <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-0D1117?style=flat-square&logo=cloudflare&logoColor=white" alt="vbcreation.io" /></a>
@@ -16,79 +19,133 @@
 
 <br/>
 
-> Je construis l'infrastructure que je voulais avoir : fintech crypto auditée, microservices résilients, IA orchestrée en local. Pas des démos — du code en production, des chiffres mesurables, des audits OWASP qui passent.
+```text
+~ $ cat manifesto.txt
+─────────────────────────────────────────────────────────────────
+Je construis l'infrastructure que je voulais avoir :
+fintech crypto auditée, microservices résilients, IA orchestrée
+en local. Pas des démos — du code en production, des chiffres
+mesurables, des audits OWASP qui passent.
+─────────────────────────────────────────────────────────────────
+```
 
 <br/>
 
-## En cours
+## `~ $ ps aux | grep building`
 
 <!-- BUILDING:START -->
-- 🟢 **CortiA** — bot de trading crypto, 13 microservices FastAPI, production stable
-- 🟢 **COMPANION** — UI web pour Claude Code à distance (ZeroTier + 2FA), v0.92.5
-- 🔵 **vbcreation-social** — suite multi-réseaux pilotée par Claude SDK local, phase 4 / 6
-- 🟣 **VBPaperclip** — superviseur d'instances Paperclip, Quota Guardian phase 5
-
-<sub>📅 Auto-régénéré le 2026-04-26 11:40 UTC</sub>
+```log
+[ RUN ] CortiA              bot trading crypto · 13 microservices FastAPI · production stable
+[ RUN ] COMPANION           UI Claude Code distant · ZeroTier + 2FA · v0.92.5
+[WORK ] vbcreation-social   suite multi-réseaux · Claude SDK local · phase 4 / 6
+[ R&D ] VBPaperclip         superviseur Paperclip · Quota Guardian phase 5
+```
+<sub>Section régénérée automatiquement.</sub>
 <!-- BUILDING:END -->
 
 <br/>
 
-## Projets
+## `~ $ ls -la projets/`
 
-### CortiA — Trading crypto IA
+```text
+drwxr-xr-x  CortiA/              Trading crypto IA — 13 microservices FastAPI
+drwxr-xr-x  COMPANION/           Claude Code à distance via ZeroTier
+drwxr-xr-x  vbcreation.io/       Site vitrine Next.js 16, hero 3D R3F
+drwxr-xr-x  Simtaux/             Simulateurs financiers, calculs Decimal.js
+drwxr-xr-x  Gantt-BTP/           Planning standalone, BTP suisse
+drwxr-xr-x  vbcreation-social/   Social piloté par Claude SDK local
+```
 
-Bot de trading multiservices avec sécurité bancaire : 13 microservices FastAPI, TimescaleDB, Redpanda, modèles TFT / EMGNN / RL.
+### → CortiA — Trading crypto IA
 
-`13 microservices` · `21 / 21 services healthy` · `latence < 20 ms` · `> 1 800 RPS` · `OWASP ASVS 5.0 — 93,8 / 100` · `MiCA / RGPD`
+```yaml
+stack:        FastAPI · TimescaleDB · Redpanda · TFT/EMGNN/RL
+microservices: 13
+status:       21 / 21 services healthy
+latence:      < 20 ms
+throughput:   > 1 800 RPS
+security:     OWASP ASVS 5.0 — 93.8 / 100
+compliance:   MiCA · RGPD
+```
 
-### COMPANION — Claude Code à distance
+### → COMPANION — Claude Code à distance
 
-Interface web PWA pour piloter Claude Code via VPN P2P chiffré. Bun, Hono, React, ZeroTier.
+```yaml
+stack:        Bun · Hono · React PWA · ZeroTier P2P
+version:      v0.92.5
+auth:         2FA TOTP · TLS auto-signé
+offline:      IndexedDB queue
+audit:        17 findings OWASP corrigés
+deploy:       systemd
+```
 
-`v0.92.5` · `2FA TOTP` · `TLS auto-signé` · `mode offline IndexedDB` · `17 findings OWASP corrigés` · `déploiement systemd`
+### → vbcreation.io — Site vitrine
 
-### vbcreation.io — Site vitrine
+```yaml
+stack:        Next.js 16 · React 19 · Cloudflare Pages
+chatbot:      Groq + RAG TF-IDF
+lighthouse:   96 / 96 / 100
+i18n:         63 pages · FR / EN / TH
+hero:         R3F (2 000 particules + bloom)
+a11y:         WCAG 2.1 AA
+cost:         0 $ / mois
+```
 
-Portfolio premium trilingue, chatbot RAG sur Cloudflare. Next.js 16, React 19, hero 3D R3F.
+### → Simtaux — Simulateurs financiers
 
-`63 pages FR / EN / TH` · `Lighthouse 96 / 96 / 100` · `WCAG 2.1 AA` · `chatbot Groq RAG` · `coût IA 0 $ / mois`
+```yaml
+stack:        Next.js 16 · Decimal.js · Cloudflare SSG
+version:      v1.7.2
+math:         taux BCE auto-fetch · TAEG Newton-Raphson
+tests:        30 Vitest + E2E Playwright
+exports:      PDF (branded) · CSV
+guarantee:    jamais de float sur des €
+```
 
-### Simtaux — Simulateurs financiers
+### → Gantt BTP — Planning standalone
 
-Simulateurs transparents (intérêts composés, crédit immobilier). Calculs Decimal.js — jamais de `float` sur des €.
+```yaml
+stack:        HTML5 · JS vanilla · Canvas 2D custom
+deps:         zéro · fonctionne en file://
+templates:    6 (façade pierre, intérieur, etc.)
+features:     CPM · EVM · matrice risques
+calendrier:   25 cantons suisses
+i18n:         FR / DE / EN
+```
 
-`v1.7.2` · `taux BCE auto-fetch` · `TAEG Newton-Raphson` · `30 tests Vitest + Playwright` · `export PDF / CSV`
+### → vbcreation-social — Social piloté IA
 
-### Gantt BTP — Planning standalone
-
-Diagramme de Gantt pour le BTP suisse, moteur Canvas 2D custom. HTML + JS vanilla, zéro dépendance.
-
-`fonctionne en file://` · `6 templates métier` · `CPM / EVM / matrice risques` · `25 cantons suisses` · `FR / DE / EN`
-
-### vbcreation-social — Social piloté IA
-
-Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK local, publication via bot Telegram.
-
-`7 variantes par post` · `Telegram HMAC` · `FastAPI + ARQ` · `Docker 127.0.0.1 only` · `coût IA 0 $ / mois`
+```yaml
+stack:        FastAPI · ARQ · Telegram bot · Claude SDK local
+réseaux:      7 plateformes
+variantes:    7 par post
+sécurité:     callbacks HMAC signés · 127.0.0.1 only
+infra:        Docker hybride · systemd
+cost:         0 $ / mois
+```
 
 <br/>
 
-## Stack
+## `~ $ env | grep STACK`
 
-**Backend** — Python · FastAPI · Bun · Hono · Node.js
-**Frontend** — Next.js 16 · React 19 · TypeScript · Tailwind 4 · shadcn/ui · React Three Fiber
-**Données / ML** — TimescaleDB · PostgreSQL · Redis · Redpanda · PyTorch · Claude · Groq
-**Infra** — Docker · Traefik · Cloudflare · Prometheus · Grafana · systemd
-**Sécurité** — OWASP ASVS 5.0 · JWT HS256 · AES-256-GCM · Docker Secrets · 2FA TOTP
+```ini
+BACKEND     = python · fastapi · bun · hono · node
+FRONTEND    = next.js-16 · react-19 · typescript · tailwind-4 · shadcn · r3f
+DATA_ML     = timescaledb · postgres · redis · redpanda · pytorch · claude · groq
+INFRA       = docker · traefik · cloudflare · prometheus · grafana · systemd
+SECURITY    = owasp-asvs-5.0 · jwt-hs256 · aes-256-gcm · docker-secrets · 2fa-totp
+```
 
 <br/>
 
-## Disponible pour
+## `~ $ cat services.txt`
 
-- **Audits sécurité fintech** — OWASP ASVS 5.0, conformité MiCA / RGPD, threat modeling
-- **Architecture microservices** — Python / FastAPI, event-driven (Redis PubSub + Kafka), TimescaleDB
-- **Frontend premium** — Next.js 16 + React 19, design tokens OKLCH, Lighthouse 95+
-- **Workflows IA** — orchestration agents Claude (Code SDK, Agent SDK), MCP servers, RAG local
+```log
+[ AVAILABLE ] Audits sécurité fintech       OWASP ASVS 5.0 · MiCA / RGPD · threat modeling
+[ AVAILABLE ] Architecture microservices    Python · FastAPI · Redis PubSub + Kafka
+[ AVAILABLE ] Frontend premium              Next.js 16 + React 19 · OKLCH · Lighthouse 95+
+[ AVAILABLE ] Workflows IA                  Agents Claude · MCP servers · RAG local
+```
 
 <p align="center">
   <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/Discutons%20de%20votre%20projet-58A6FF?style=flat-square&logo=gmail&logoColor=white&labelColor=58A6FF" alt="Discutons de votre projet" /></a>
@@ -98,7 +155,7 @@ Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK lo
 
 <br/>
 
-## Activité
+## `~ $ git log --oneline | head`
 
 <p align="center">
   <picture>
@@ -116,6 +173,7 @@ Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK lo
 
 <br/>
 
-<p align="center">
-  <sub><i>Construire · automatiser · innover.</i></sub>
-</p>
+```bash
+$ exit
+# construire · automatiser · innover
+```
