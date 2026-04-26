@@ -30,7 +30,7 @@
 - 🔵 **vbcreation-social** — suite multi-réseaux pilotée par Claude SDK local, phase 5
 - 🟣 **VBPaperclip** — superviseur d'instances Paperclip, Quota Guardian phase 5
 
-<sub>Section régénérée automatiquement.</sub>
+<sub>📅 Auto-régénéré le 2026-04-26 11:20 UTC</sub>
 <!-- BUILDING:END -->
 
 <br/>
