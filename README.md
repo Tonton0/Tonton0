@@ -31,11 +31,12 @@
 ### 🟢 Now Building
 
 <!-- BUILDING:START -->
-- **CortiA** — Bot de trading crypto, 13 microservices FastAPI, production stable (21/21 services healthy)
-- **COMPANION** — UI web pour Claude Code à distance (ZeroTier + 2FA), v0.92.5 prod
-- **vbcreation-social** — Suite multi-réseaux pilotée par Claude SDK local (Phase 5 en cours)
+- 🟢 **CortiA** — Bot de trading crypto, 13 microservices FastAPI, production stable (21/21 services healthy)
+- 🟢 **COMPANION** — UI web pour Claude Code à distance (ZeroTier + 2FA), v0.92.5 prod
+- 🔵 **vbcreation-social** — Suite multi-réseaux pilotée par Claude SDK local — Phase 5 (calendrier + historique) en cours
+- 🟣 **VBPaperclip** — Superviseur d'instances Paperclip — Quota Guardian Phase 5 complétée
 
-<sub>📅 Section auto-régénérée par GitHub Actions</sub>
+<sub>📅 Auto-régénéré le 2026-04-26 11:10 UTC</sub>
 <!-- BUILDING:END -->
 
 ---
