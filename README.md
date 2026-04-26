@@ -2,9 +2,38 @@
 
 <p align="center">
   <a href="https://vbcreation.io">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&height=34&lines=Fondateur+de+VBCreation;Architecte+fintech+%C2%B7+microservices;Frontend+premium+%C2%B7+AI-native+workflows" alt="Accroche" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&height=36&lines=Mission+Control+%C2%B7+VBCreation;Fintech+%C2%B7+Microservices+%C2%B7+AI-native" alt="Mission Control" />
   </a>
 </p>
+
+<br/>
+
+<table align="center">
+  <tr>
+    <td align="center" width="170">
+      <sub>SERVICES PROD</sub><br/>
+      <h2>6</h2>
+      <sub>🟢 healthy</sub>
+    </td>
+    <td align="center" width="170">
+      <sub>UPTIME</sub><br/>
+      <h2>99.9 %</h2>
+      <sub>CortiA · 30 j</sub>
+    </td>
+    <td align="center" width="170">
+      <sub>OWASP ASVS</sub><br/>
+      <h2>93.8</h2>
+      <sub>/ 100 — score</sub>
+    </td>
+    <td align="center" width="170">
+      <sub>LATENCE p99</sub><br/>
+      <h2>&lt; 20 ms</h2>
+      <sub>1 800 RPS</sub>
+    </td>
+  </tr>
+</table>
+
+<br/>
 
 <p align="center">
   <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-0D1117?style=flat-square&logo=cloudflare&logoColor=white" alt="vbcreation.io" /></a>
@@ -20,75 +49,120 @@
 
 <br/>
 
-## En cours
+## Status board
 
 <!-- BUILDING:START -->
-- 🟢 **CortiA** — bot de trading crypto, 13 microservices FastAPI, production stable
-- 🟢 **COMPANION** — UI web pour Claude Code à distance (ZeroTier + 2FA), v0.92.5
-- 🔵 **vbcreation-social** — suite multi-réseaux pilotée par Claude SDK local, phase 4 / 6
-- 🟣 **VBPaperclip** — superviseur d'instances Paperclip, Quota Guardian phase 5
+| | Projet | Statut | Détail |
+|---|---|---|---|
+| 🟢 | **CortiA** | `production` | bot de trading crypto, 13 microservices FastAPI |
+| 🟢 | **COMPANION** | `production` | UI web pour Claude Code à distance, v0.92.5 |
+| 🔵 | **vbcreation-social** | `phase 4 / 6` | suite multi-réseaux pilotée par Claude SDK local |
+| 🟣 | **VBPaperclip** | `R&D` | superviseur d'instances Paperclip, Quota Guardian phase 5 |
 
-<sub>📅 Auto-régénéré le 2026-04-26 11:40 UTC</sub>
+<sub>Section régénérée automatiquement.</sub>
 <!-- BUILDING:END -->
 
 <br/>
 
-## Projets
+## Portfolio
 
-### CortiA — Trading crypto IA
-
-Bot de trading multiservices avec sécurité bancaire : 13 microservices FastAPI, TimescaleDB, Redpanda, modèles TFT / EMGNN / RL.
-
-`13 microservices` · `21 / 21 services healthy` · `latence < 20 ms` · `> 1 800 RPS` · `OWASP ASVS 5.0 — 93,8 / 100` · `MiCA / RGPD`
-
-### COMPANION — Claude Code à distance
-
-Interface web PWA pour piloter Claude Code via VPN P2P chiffré. Bun, Hono, React, ZeroTier.
-
-`v0.92.5` · `2FA TOTP` · `TLS auto-signé` · `mode offline IndexedDB` · `17 findings OWASP corrigés` · `déploiement systemd`
-
-### vbcreation.io — Site vitrine
-
-Portfolio premium trilingue, chatbot RAG sur Cloudflare. Next.js 16, React 19, hero 3D R3F.
-
-`63 pages FR / EN / TH` · `Lighthouse 96 / 96 / 100` · `WCAG 2.1 AA` · `chatbot Groq RAG` · `coût IA 0 $ / mois`
-
-### Simtaux — Simulateurs financiers
-
-Simulateurs transparents (intérêts composés, crédit immobilier). Calculs Decimal.js — jamais de `float` sur des €.
-
-`v1.7.2` · `taux BCE auto-fetch` · `TAEG Newton-Raphson` · `30 tests Vitest + Playwright` · `export PDF / CSV`
-
-### Gantt BTP — Planning standalone
-
-Diagramme de Gantt pour le BTP suisse, moteur Canvas 2D custom. HTML + JS vanilla, zéro dépendance.
-
-`fonctionne en file://` · `6 templates métier` · `CPM / EVM / matrice risques` · `25 cantons suisses` · `FR / DE / EN`
-
-### vbcreation-social — Social piloté IA
-
-Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK local, publication via bot Telegram.
-
-`7 variantes par post` · `Telegram HMAC` · `FastAPI + ARQ` · `Docker 127.0.0.1 only` · `coût IA 0 $ / mois`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 CortiA</h3>
+      <sub>Trading crypto IA · 13 microservices FastAPI · TimescaleDB · Redpanda · TFT/EMGNN/RL</sub>
+      <table>
+        <tr><td><sub>HEALTHCHECKS</sub></td><td><b>21 / 21</b></td></tr>
+        <tr><td><sub>LATENCE p99</sub></td><td><b>&lt; 20 ms</b></td></tr>
+        <tr><td><sub>THROUGHPUT</sub></td><td><b>&gt; 1 800 RPS</b></td></tr>
+        <tr><td><sub>OWASP ASVS 5.0</sub></td><td><b>93.8 / 100</b></td></tr>
+        <tr><td><sub>COMPLIANCE</sub></td><td>MiCA · RGPD</td></tr>
+      </table>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛰️ COMPANION</h3>
+      <sub>Claude Code à distance · Bun · Hono · React PWA · ZeroTier P2P</sub>
+      <table>
+        <tr><td><sub>VERSION</sub></td><td><b>v0.92.5</b></td></tr>
+        <tr><td><sub>AUTH</sub></td><td>2FA TOTP · TLS auto-signé</td></tr>
+        <tr><td><sub>OFFLINE</sub></td><td>queue IndexedDB</td></tr>
+        <tr><td><sub>OWASP FIX</sub></td><td><b>17 findings corrigés</b></td></tr>
+        <tr><td><sub>DEPLOY</sub></td><td>systemd</td></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌐 vbcreation.io</h3>
+      <sub>Site vitrine · Next.js 16 · React 19 · Cloudflare Pages · Groq RAG</sub>
+      <table>
+        <tr><td><sub>LIGHTHOUSE</sub></td><td><b>96 / 96 / 100</b></td></tr>
+        <tr><td><sub>I18N</sub></td><td>63 pages · FR / EN / TH</td></tr>
+        <tr><td><sub>HERO 3D</sub></td><td>R3F · 2 000 particules</td></tr>
+        <tr><td><sub>A11Y</sub></td><td>WCAG 2.1 AA</td></tr>
+        <tr><td><sub>COÛT IA</sub></td><td><b>0 $ / mois</b></td></tr>
+      </table>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧮 Simtaux</h3>
+      <sub>Simulateurs financiers · Decimal.js · Cloudflare SSG</sub>
+      <table>
+        <tr><td><sub>VERSION</sub></td><td><b>v1.7.2</b></td></tr>
+        <tr><td><sub>TAUX BCE</sub></td><td>auto-fetch build-time</td></tr>
+        <tr><td><sub>TAEG</sub></td><td>Newton-Raphson</td></tr>
+        <tr><td><sub>TESTS</sub></td><td><b>30 Vitest + Playwright</b></td></tr>
+        <tr><td><sub>EXPORTS</sub></td><td>PDF · CSV</td></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏗️ Gantt BTP</h3>
+      <sub>Planning standalone · HTML5 · Canvas 2D custom · zéro dépendance</sub>
+      <table>
+        <tr><td><sub>EXÉCUTION</sub></td><td><b>file://</b></td></tr>
+        <tr><td><sub>TEMPLATES</sub></td><td>6 métier</td></tr>
+        <tr><td><sub>FEATURES</sub></td><td>CPM · EVM · matrice risques</td></tr>
+        <tr><td><sub>CALENDRIER</sub></td><td><b>25 cantons CH</b></td></tr>
+        <tr><td><sub>I18N</sub></td><td>FR / DE / EN</td></tr>
+      </table>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📡 vbcreation-social</h3>
+      <sub>Social piloté IA · FastAPI · ARQ · Telegram bot · Claude SDK local</sub>
+      <table>
+        <tr><td><sub>RÉSEAUX</sub></td><td><b>7 plateformes</b></td></tr>
+        <tr><td><sub>VARIANTES</sub></td><td>7 par post</td></tr>
+        <tr><td><sub>SÉCURITÉ</sub></td><td>HMAC · 127.0.0.1 only</td></tr>
+        <tr><td><sub>INFRA</sub></td><td>Docker · systemd</td></tr>
+        <tr><td><sub>COÛT IA</sub></td><td><b>0 $ / mois</b></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
 ## Stack
 
-**Backend** — Python · FastAPI · Bun · Hono · Node.js
-**Frontend** — Next.js 16 · React 19 · TypeScript · Tailwind 4 · shadcn/ui · React Three Fiber
-**Données / ML** — TimescaleDB · PostgreSQL · Redis · Redpanda · PyTorch · Claude · Groq
-**Infra** — Docker · Traefik · Cloudflare · Prometheus · Grafana · systemd
-**Sécurité** — OWASP ASVS 5.0 · JWT HS256 · AES-256-GCM · Docker Secrets · 2FA TOTP
+| Domaine | Outils |
+|---|---|
+| **Backend** | Python · FastAPI · Bun · Hono · Node.js |
+| **Frontend** | Next.js 16 · React 19 · TypeScript · Tailwind 4 · shadcn/ui · R3F |
+| **Données / ML** | TimescaleDB · PostgreSQL · Redis · Redpanda · PyTorch · Claude · Groq |
+| **Infra** | Docker · Traefik · Cloudflare · Prometheus · Grafana · systemd |
+| **Sécurité** | OWASP ASVS 5.0 · JWT HS256 · AES-256-GCM · Docker Secrets · 2FA TOTP |
 
 <br/>
 
 ## Disponible pour
 
-- **Audits sécurité fintech** — OWASP ASVS 5.0, conformité MiCA / RGPD, threat modeling
-- **Architecture microservices** — Python / FastAPI, event-driven (Redis PubSub + Kafka), TimescaleDB
-- **Frontend premium** — Next.js 16 + React 19, design tokens OKLCH, Lighthouse 95+
-- **Workflows IA** — orchestration agents Claude (Code SDK, Agent SDK), MCP servers, RAG local
+| | Service | Détail |
+|---|---|---|
+| 🔍 | **Audits sécurité fintech** | OWASP ASVS 5.0 · MiCA / RGPD · threat modeling |
+| 🏗️ | **Architecture microservices** | Python / FastAPI · event-driven Redis + Kafka · TimescaleDB |
+| 🎨 | **Frontend premium** | Next.js 16 + React 19 · OKLCH tokens · Lighthouse 95+ |
+| 🤖 | **Workflows IA** | Agents Claude (Code SDK, Agent SDK) · MCP servers · RAG local |
 
 <p align="center">
   <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/Discutons%20de%20votre%20projet-58A6FF?style=flat-square&logo=gmail&logoColor=white&labelColor=58A6FF" alt="Discutons de votre projet" /></a>
@@ -98,7 +172,7 @@ Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK lo
 
 <br/>
 
-## Activité
+## Telemetry
 
 <p align="center">
   <picture>
