@@ -1,26 +1,46 @@
-<br/>
-
 <p align="center">
-  <a href="https://vbcreation.io">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&height=34&lines=Fondateur+de+VBCreation;Architecte+fintech+%C2%B7+microservices;Frontend+premium+%C2%B7+AI-native+workflows" alt="Accroche" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=transparent&color=58A6FF&height=120&section=header&text=VBCREATION&fontColor=58A6FF&fontSize=64&fontAlignY=55&desc=fintech%20%C2%B7%20microservices%20%C2%B7%20AI-native&descSize=16&descAlignY=82&descAlign=50" />
+    <img alt="VBCreation" src="https://capsule-render.vercel.app/api?type=transparent&color=0969DA&height=120&section=header&text=VBCREATION&fontColor=0969DA&fontSize=64&fontAlignY=55&desc=fintech%20%C2%B7%20microservices%20%C2%B7%20AI-native&descSize=16&descAlignY=82&descAlign=50" />
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-0D1117?style=flat-square&logo=cloudflare&logoColor=white" alt="vbcreation.io" /></a>
-  &nbsp;
-  <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/contact-email-58A6FF?style=flat-square&logo=gmail&logoColor=white&labelColor=24292F" alt="contact" /></a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Tonton0&label=Visiteurs&color=58A6FF&labelColor=24292F&style=flat-square" alt="Visiteurs" />
+  <sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
+</p>
+
+<p align="center">
+  <i>« Construire l'infrastructure que je voulais avoir : fintech crypto auditée,<br/>
+  microservices résilients, IA orchestrée en local. »</i>
+</p>
+
+<p align="center">
+  <sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
 </p>
 
 <br/>
 
-> Je construis l'infrastructure que je voulais avoir : fintech crypto auditée, microservices résilients, IA orchestrée en local. Pas des démos — du code en production, des chiffres mesurables, des audits OWASP qui passent.
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h1>L'édito</h1>
+      <p><b>P</b>as des démos. Du code en production, des chiffres mesurables, des audits OWASP qui passent. Six projets shippés en parallèle, chacun avec ses contraintes — fintech régulée, IA frugale, calculs financiers certifiés, planning offline.</p>
+      <p>Le fil rouge : <b>chaque ligne de code doit pouvoir survivre à un audit</b>. C'est ce qui sépare un projet jouet d'une infrastructure qu'un client peut toucher.</p>
+    </td>
+    <td width="40%" valign="top" align="center">
+      <br/><br/>
+      <a href="https://vbcreation.io"><img src="https://img.shields.io/badge/vbcreation.io-0D1117?style=flat-square&logo=cloudflare&logoColor=white" alt="vbcreation.io" /></a>
+      <br/><br/>
+      <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/contact-email-58A6FF?style=flat-square&logo=gmail&logoColor=white&labelColor=24292F" alt="contact" /></a>
+      <br/><br/>
+      <img src="https://komarev.com/ghpvc/?username=Tonton0&label=Lecteurs&color=58A6FF&labelColor=24292F&style=flat-square" alt="Lecteurs" />
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-## En cours
+## En cours · *avril 2026*
 
 <!-- BUILDING:START -->
 - 🟢 **CortiA** — bot de trading crypto, 13 microservices FastAPI, production stable
@@ -28,67 +48,100 @@
 - 🔵 **vbcreation-social** — suite multi-réseaux pilotée par Claude SDK local, phase 4 / 6
 - 🟣 **VBPaperclip** — superviseur d'instances Paperclip, Quota Guardian phase 5
 
-<sub>📅 Auto-régénéré le 2026-04-26 11:40 UTC</sub>
+<sub>Section régénérée automatiquement.</sub>
 <!-- BUILDING:END -->
 
 <br/>
 
-## Projets
+---
 
-### CortiA — Trading crypto IA
+## En couverture · CortiA
 
-Bot de trading multiservices avec sécurité bancaire : 13 microservices FastAPI, TimescaleDB, Redpanda, modèles TFT / EMGNN / RL.
-
-`13 microservices` · `21 / 21 services healthy` · `latence < 20 ms` · `> 1 800 RPS` · `OWASP ASVS 5.0 — 93,8 / 100` · `MiCA / RGPD`
-
-### COMPANION — Claude Code à distance
-
-Interface web PWA pour piloter Claude Code via VPN P2P chiffré. Bun, Hono, React, ZeroTier.
-
-`v0.92.5` · `2FA TOTP` · `TLS auto-signé` · `mode offline IndexedDB` · `17 findings OWASP corrigés` · `déploiement systemd`
-
-### vbcreation.io — Site vitrine
-
-Portfolio premium trilingue, chatbot RAG sur Cloudflare. Next.js 16, React 19, hero 3D R3F.
-
-`63 pages FR / EN / TH` · `Lighthouse 96 / 96 / 100` · `WCAG 2.1 AA` · `chatbot Groq RAG` · `coût IA 0 $ / mois`
-
-### Simtaux — Simulateurs financiers
-
-Simulateurs transparents (intérêts composés, crédit immobilier). Calculs Decimal.js — jamais de `float` sur des €.
-
-`v1.7.2` · `taux BCE auto-fetch` · `TAEG Newton-Raphson` · `30 tests Vitest + Playwright` · `export PDF / CSV`
-
-### Gantt BTP — Planning standalone
-
-Diagramme de Gantt pour le BTP suisse, moteur Canvas 2D custom. HTML + JS vanilla, zéro dépendance.
-
-`fonctionne en file://` · `6 templates métier` · `CPM / EVM / matrice risques` · `25 cantons suisses` · `FR / DE / EN`
-
-### vbcreation-social — Social piloté IA
-
-Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK local, publication via bot Telegram.
-
-`7 variantes par post` · `Telegram HMAC` · `FastAPI + ARQ` · `Docker 127.0.0.1 only` · `coût IA 0 $ / mois`
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <sub>FINTECH · TRADING IA</sub>
+      <h2>13 microservices.<br/>Une seule promesse :<br/>l'audit qui passe.</h2>
+    </td>
+    <td valign="top">
+      <p>FastAPI, TimescaleDB, Redpanda, et trois familles de modèles ML — TFT, EMGNN, RL. Le tout pensé dès le premier commit comme une <b>fintech régulée</b>, pas comme un projet de week-end qui essaie de devenir sérieux.</p>
+      <table>
+        <tr>
+          <td><sub>SERVICES HEALTHY</sub><br/><b>21 / 21</b></td>
+          <td><sub>LATENCE p99</sub><br/><b>&lt; 20 ms</b></td>
+          <td><sub>THROUGHPUT</sub><br/><b>&gt; 1 800 RPS</b></td>
+          <td><sub>OWASP ASVS 5.0</sub><br/><b>93,8 / 100</b></td>
+        </tr>
+      </table>
+      <sub>Audit trail blockchain immuable · conformité MiCA / RGPD.</sub>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-## Stack
+---
 
-**Backend** — Python · FastAPI · Bun · Hono · Node.js
-**Frontend** — Next.js 16 · React 19 · TypeScript · Tailwind 4 · shadcn/ui · React Three Fiber
-**Données / ML** — TimescaleDB · PostgreSQL · Redis · Redpanda · PyTorch · Claude · Groq
-**Infra** — Docker · Traefik · Cloudflare · Prometheus · Grafana · systemd
-**Sécurité** — OWASP ASVS 5.0 · JWT HS256 · AES-256-GCM · Docker Secrets · 2FA TOTP
+## Le portfolio
+
+### COMPANION — *Pilote Claude Code depuis n'importe où*
+
+Bun, Hono, React PWA, ZeroTier P2P. **v0.92.5** en production · 2FA TOTP · TLS auto-signé · mode offline IndexedDB · **17 findings OWASP corrigés** · déploiement systemd.
+
+> *« Quand tu pars en train et que ton agent doit continuer à tourner, tu veux une PWA, pas un terminal SSH bricolé. »*
+
+---
+
+### vbcreation.io — *Le site vitrine que je voulais lire*
+
+Next.js 16, React 19, Cloudflare Pages, chatbot RAG Groq. **Lighthouse 96 / 96 / 100** · 63 pages trilingues FR / EN / TH · hero 3D R3F (2 000 particules) · WCAG 2.1 AA · **coût IA 0 $ / mois**.
+
+---
+
+### Simtaux — *Les simulateurs qui ne mentent pas*
+
+Next.js 16, Decimal.js, Cloudflare SSG. **v1.7.2** · taux BCE auto-fetch · TAEG Newton-Raphson · **30 tests Vitest + E2E Playwright** · export PDF branded + CSV.
+
+> *« Jamais de `float` sur des euros. Jamais. »*
+
+---
+
+### Gantt BTP — *Le planning qui marche sans serveur*
+
+HTML5, JS vanilla, Canvas 2D custom — **zéro dépendance**, fonctionne en `file://`. 6 templates métier · CPM · EVM · matrice risques · calendrier ouvert **25 cantons suisses** · FR / DE / EN.
+
+---
+
+### vbcreation-social — *Le social media manager qui dort tranquille*
+
+FastAPI, ARQ, Telegram bot, Claude SDK local. 7 réseaux gérés depuis une console unique · 7 variantes par post · édition Telegram HMAC · Docker 127.0.0.1 only · **coût IA 0 $ / mois**.
 
 <br/>
 
-## Disponible pour
+---
 
-- **Audits sécurité fintech** — OWASP ASVS 5.0, conformité MiCA / RGPD, threat modeling
-- **Architecture microservices** — Python / FastAPI, event-driven (Redis PubSub + Kafka), TimescaleDB
-- **Frontend premium** — Next.js 16 + React 19, design tokens OKLCH, Lighthouse 95+
-- **Workflows IA** — orchestration agents Claude (Code SDK, Agent SDK), MCP servers, RAG local
+## L'atelier
+
+| | |
+|---|---|
+| **Backend** | Python · FastAPI · Bun · Hono · Node.js |
+| **Frontend** | Next.js 16 · React 19 · TypeScript · Tailwind 4 · shadcn/ui · React Three Fiber |
+| **Données / ML** | TimescaleDB · PostgreSQL · Redis · Redpanda · PyTorch · Claude · Groq |
+| **Infra** | Docker · Traefik · Cloudflare · Prometheus · Grafana · systemd |
+| **Sécurité** | OWASP ASVS 5.0 · JWT HS256 · AES-256-GCM · Docker Secrets · 2FA TOTP |
+
+<br/>
+
+---
+
+## Le carnet d'adresses
+
+J'accepte des missions courtes ou longues sur :
+
+- 🔍 **Audits sécurité fintech** — OWASP ASVS 5.0, conformité MiCA / RGPD, threat modeling
+- 🏗️ **Architecture microservices** — Python / FastAPI, event-driven (Redis PubSub + Kafka), TimescaleDB
+- 🎨 **Frontend premium** — Next.js 16 + React 19, design tokens OKLCH, Lighthouse 95+
+- 🤖 **Workflows IA** — orchestration agents Claude (Code SDK, Agent SDK), MCP servers, RAG local
 
 <p align="center">
   <a href="mailto:contact@vbcreation.io"><img src="https://img.shields.io/badge/Discutons%20de%20votre%20projet-58A6FF?style=flat-square&logo=gmail&logoColor=white&labelColor=58A6FF" alt="Discutons de votre projet" /></a>
@@ -98,7 +151,9 @@ Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK lo
 
 <br/>
 
-## Activité
+---
+
+## Le journal
 
 <p align="center">
   <picture>
@@ -115,6 +170,10 @@ Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK lo
 </p>
 
 <br/>
+
+<p align="center">
+  <sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
+</p>
 
 <p align="center">
   <sub><i>Construire · automatiser · innover.</i></sub>
