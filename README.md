@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://vbcreation.io">vbcreation.io</a>
   &nbsp;·&nbsp;
-  <a href="mailto:champion.christ@gmail.com">champion.christ@gmail.com</a>
+  <a href="mailto:contact@vbcreation.io">contact@vbcreation.io</a>
   &nbsp;·&nbsp;
   <img src="https://komarev.com/ghpvc/?username=Tonton0&label=vues&color=58A6FF&style=flat-square" alt="vues" />
 </p>
@@ -91,12 +91,19 @@ Suite de gestion des 7 réseaux sociaux VBCreation, rédaction par Claude SDK lo
 - **Workflows IA** — orchestration agents Claude (Code SDK, Agent SDK), MCP servers, RAG local
 
 <p align="center">
-  <a href="mailto:champion.christ@gmail.com">📩 Discutons de votre projet</a>
+  <a href="mailto:contact@vbcreation.io">📩 Discutons de votre projet</a>
 </p>
 
 <br/>
 
 ## Activité
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Tonton0&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8B949E" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tonton0&theme=default&hide_border=true&ring=0969DA&fire=FF6B6B&currStreakLabel=0969DA" alt="Streak stats" />
+  </picture>
+</p>
 
 <p align="center">
   <picture>
