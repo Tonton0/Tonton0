@@ -39,7 +39,7 @@ mesurables, des audits OWASP qui passent.
 - 🔵 **vbcreation-social** — suite multi-réseaux pilotée par Claude SDK local, phase 4 / 6
 - 🟣 **VBPaperclip** — superviseur d'instances Paperclip, Quota Guardian phase 5
 
-<sub>📅 Auto-régénéré le 2026-06-01 02:41 UTC</sub>
+<sub>📅 Auto-régénéré le 2026-06-01 11:08 UTC</sub>
 <!-- BUILDING:END -->
 
 <br/>
