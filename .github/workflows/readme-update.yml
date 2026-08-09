@@ -20,9 +20,15 @@ jobs:
 
       - name: Build "Now Building" section
         id: build
+        env:
+          # PAT (scopes repo + read:org) : les projets sont privés et SwyftSite
+          # vit dans une autre org, le GITHUB_TOKEN par défaut ne les voit pas.
+          # Absent ou expiré => repli sur les statuts écrits dans le YAML.
+          PROFILE_READ_TOKEN: ${{ secrets.PROFILE_READ_TOKEN }}
         run: |
           python3 - <<'EOF'
-          import os, re, pathlib, sys
+          import json, os, pathlib, re, sys, urllib.error, urllib.request
+          from datetime import datetime, timezone
 
           try:
               import yaml
@@ -39,6 +45,12 @@ jobs:
               "⚪": "[PAUSE]",
           }
 
+          # Une date de push ne dit qu'une chose : est-ce un chantier en cours.
+          # Elle ne dit pas si le produit tourne — un service en production
+          # stable peut rester des mois sans commit. L'auto ne fait donc que
+          # promouvoir en 🔵 ; tout le reste vient du statut déclaré.
+          ACTIVE_DAYS = 14
+
           src = pathlib.Path(".github/now-building.yml")
           if not src.exists():
               print("now-building.yml absent, abort")
@@ -47,11 +59,54 @@ jobs:
           data = yaml.safe_load(src.read_text(encoding="utf-8")) or {}
           items = data.get("items", [])
 
+          token = os.environ.get("PROFILE_READ_TOKEN", "").strip()
+          if not token:
+              print("::warning::PROFILE_READ_TOKEN absent — statuts repris du YAML")
+
+          def pushed_days_ago(repo):
+              """Jours depuis le dernier push, ou None si l'info est inaccessible."""
+              req = urllib.request.Request(
+                  f"https://api.github.com/repos/{repo}",
+                  headers={
+                      "Accept": "application/vnd.github+json",
+                      "Authorization": f"Bearer {token}",
+                      "User-Agent": "Tonton0-readme-bot",
+                  },
+              )
+              try:
+                  with urllib.request.urlopen(req, timeout=15) as resp:
+                      pushed = json.load(resp).get("pushed_at")
+              except urllib.error.HTTPError as err:
+                  print(f"::warning::{repo} — HTTP {err.code}, statut repris du YAML")
+                  return None
+              except Exception as err:  # réseau, timeout, JSON illisible
+                  print(f"::warning::{repo} — {type(err).__name__}, statut repris du YAML")
+                  return None
+
+              if not pushed:
+                  return None
+              when = datetime.strptime(pushed, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+              return (datetime.now(timezone.utc) - when).days
+
+          def resolve(it):
+              """Statut effectif : épinglé, déduit du dernier push, ou repli YAML."""
+              fallback = it.get("status", "🟢")
+              repo = it.get("repo")
+              if it.get("pin") or not repo or not token:
+                  return fallback
+
+              days = pushed_days_ago(repo)
+              if days is None:
+                  return fallback
+              status = "🔵" if days <= ACTIVE_DAYS else fallback
+              print(f"{repo}: dernier push il y a {days} j -> {status}")
+              return status
+
           width = max((len(it.get("name", "")) for it in items), default=0) + 2
 
           lines = []
           for it in items:
-              tag = TAGS.get(it.get("status", "🟢"), "[ RUN ]")
+              tag = TAGS.get(resolve(it), "[ RUN ]")
               name = it.get("name", "")
               desc = it.get("desc", "")
               lines.append(f"{tag} {name.ljust(width)}{desc}")

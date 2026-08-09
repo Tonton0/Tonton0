@@ -3,37 +3,60 @@
 # entre <!-- BUILDING:START --> et <!-- BUILDING:END -->.
 #
 # Statuts : 🟢 production · 🟡 beta · 🔵 actif · 🟣 R&D · ⚪ pause
-# Rendu    : [ RUN ]      [BETA ]   [WORK ]   [ R&D ]  [PAUSE]
+# Rendu   : [ RUN ]        [BETA ]   [WORK ]   [ R&D ]  [PAUSE]
+#
+# Champs :
+#   status — statut affiché. Sert aussi de valeur de repli si l'API GitHub
+#            est injoignable (secret absent, token expiré, repo supprimé).
+#   repo   — owner/name. Si renseigné, le statut est recalculé depuis la date
+#            du dernier push : < 14 j → 🔵 · < 90 j → 🟢 · au-delà → ⚪.
+#   pin    — true = ne jamais recalculer. Pour les états que la date ne peut
+#            pas deviner (R&D, conception, beta) ou les projets sans repo.
 
 items:
   - status: 🟢
     name: CortiA
+    repo: Tonton0/CortiA
     desc: "bot de trading crypto, 13 microservices FastAPI, production stable"
 
   - status: 🟢
     name: COMPANION
+    repo: Tonton0/companion-dev
     desc: "UI web pour Claude Code à distance (ZeroTier + 2FA), v0.95.0"
 
   - status: 🔵
     name: vbcreation.io
+    repo: Tonton0/vbcreation.io
     desc: "site vitrine Next.js 16, itération continue"
 
   - status: 🔵
     name: vbcreation-social
+    repo: Tonton0/vbcreation-social
     desc: "suite multi-réseaux pilotée par Claude SDK local"
 
   - status: 🔵
     name: Engramme
+    repo: Tonton0/engramme
     desc: "agent de connaissance local-first, wiki Markdown exposé via MCP"
 
+  # Org vonboss-paperclip : visible par VonbossSin, pas par Tonton0 (404).
+  # Donne l'accès en lecture à Tonton0 sur l'org, puis retire ce pin.
   - status: 🔵
     name: SwyftSite
+    repo: vonboss-paperclip/swyftsite-app
+    pin: true
     desc: "refonte de sites TPE FR/UK, produit construit par la flotte Paperclip"
 
+  # Pas de repo GitHub : espace de travail local.
   - status: 🟣
     name: VBPaperclip
+    pin: true
     desc: "superviseur d'instances Paperclip, orchestration multi-entreprises"
 
+  # Repo actif mais projet en conception : la date de push dirait "actif",
+  # ce qui serait trompeur tant qu'il n'y a pas de produit.
   - status: 🟣
     name: GestionChantier Pro
+    repo: Tonton0/GestionChantier_Pro
+    pin: true
     desc: "SaaS BTP suisse multi-tenant, mobile terrain offline-first, en conception"
