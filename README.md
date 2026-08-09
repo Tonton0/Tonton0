@@ -6,7 +6,7 @@ Vonboss — fondateur de VBCreation
 $ pwd
 /home/vb/projects → fintech · microservices · AI-native workflows
 $ uptime
-6 projets en production · 0 démos · 100 % code livré
+7 projets en production · 0 démos · 100 % code livré
 ```
 
 <p align="center">
@@ -35,12 +35,14 @@ mesurables, des audits OWASP qui passent.
 
 <!-- BUILDING:START -->
 ```log
-[ RUN ] CortiA             bot de trading crypto, 13 microservices FastAPI, production stable
-[ RUN ] COMPANION          UI web pour Claude Code à distance (ZeroTier + 2FA), v0.95.0
-[WORK ] vbcreation.io      site vitrine Next.js 16, itération continue
-[WORK ] vbcreation-social  suite multi-réseaux pilotée par Claude SDK local
-[WORK ] Engramme           agent de connaissance local-first, wiki Markdown exposé via MCP
-[ R&D ] VBPaperclip        superviseur d'instances Paperclip, orchestration multi-entreprises
+[ RUN ] CortiA               bot de trading crypto, 13 microservices FastAPI, production stable
+[ RUN ] COMPANION            UI web pour Claude Code à distance (ZeroTier + 2FA), v0.95.0
+[WORK ] vbcreation.io        site vitrine Next.js 16, itération continue
+[WORK ] vbcreation-social    suite multi-réseaux pilotée par Claude SDK local
+[WORK ] Engramme             agent de connaissance local-first, wiki Markdown exposé via MCP
+[WORK ] SwyftSite            refonte de sites TPE FR/UK, produit construit par la flotte Paperclip
+[ R&D ] VBPaperclip          superviseur d'instances Paperclip, orchestration multi-entreprises
+[ R&D ] GestionChantier Pro  SaaS BTP suisse multi-tenant, mobile terrain offline-first, en conception
 ```
 
 <sub>Section régénérée automatiquement depuis .github/now-building.yml</sub>
@@ -58,7 +60,9 @@ drwxr-xr-x  Simtaux/             Simulateurs financiers, calculs Decimal.js
 drwxr-xr-x  Gantt-BTP/           Planning standalone, BTP suisse
 drwxr-xr-x  vbcreation-social/   Social piloté par Claude SDK local
 drwxr-xr-x  Engramme/            Mémoire longue local-first exposée en MCP
+drwxr-xr-x  SwyftSite/           Refonte de sites TPE, livré par des agents
 drwxr-xr-x  VBPaperclip/         Superviseur d'entreprises agentiques
+drwxr-xr-x  GestionChantier/     SaaS BTP suisse multi-tenant (conception)
 ```
 
 ### → CortiA — Trading crypto IA
@@ -147,6 +151,28 @@ rôle:         piloter et auditer des instances Paperclip depuis le terminal
 scope:        création société · budgets · organigramme agents · audits
 isolation:    multi-entreprises cloisonnées · Docker
 statut:       R&D
+sortie:       SwyftSite (ci-dessous)
+```
+
+### → SwyftSite — Refonte de sites TPE, livrée par des agents
+
+```yaml
+produit:      prospection B2B + refonte de sites TPE (FR / UK)
+stack:        monorepo pnpm · Next.js 16 · Cloudflare Pages · Workers
+méthode:      code écrit par la flotte Paperclip, review humaine avant merge
+livraison:    343 PR mergées entre le 3 mai et le 5 août 2026
+garde-fous:   jamais de push sur main · build + type-check + lint bloquants
+```
+
+### → GestionChantier Pro — SaaS BTP suisse
+
+```yaml
+cible:        PME BTP et marbreries suisses (FR / DE / IT)
+offline:      mobile terrain 100 % hors-ligne, sync auto (PowerSync)
+conformité:   QR-bill v2.3 · TVA · nLPD · 25 cantons
+identité:     passkeys WebAuthn FIDO2 · audit log hash-chainé SHA-256
+multi-tenant: white-label OKLCH par entreprise, sans redéploiement
+statut:       en conception — 8 modules, 10 phases planifiées
 ```
 
 <br/>

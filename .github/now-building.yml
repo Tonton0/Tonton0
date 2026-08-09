@@ -26,6 +26,14 @@ items:
     name: Engramme
     desc: "agent de connaissance local-first, wiki Markdown exposé via MCP"
 
+  - status: 🔵
+    name: SwyftSite
+    desc: "refonte de sites TPE FR/UK, produit construit par la flotte Paperclip"
+
   - status: 🟣
     name: VBPaperclip
     desc: "superviseur d'instances Paperclip, orchestration multi-entreprises"
+
+  - status: 🟣
+    name: GestionChantier Pro
+    desc: "SaaS BTP suisse multi-tenant, mobile terrain offline-first, en conception"
