@@ -2,7 +2,7 @@ name: Update README — Now Building
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 6 * * 1"
   workflow_dispatch:
   push:
     paths:
@@ -22,13 +22,22 @@ jobs:
         id: build
         run: |
           python3 - <<'EOF'
-          import os, re, datetime, pathlib, sys
+          import os, re, pathlib, sys
 
           try:
               import yaml
           except ImportError:
               os.system("pip install --quiet pyyaml")
               import yaml
+
+          # Statut YAML -> tag terminal aligné (le README est en style shell).
+          TAGS = {
+              "🟢": "[ RUN ]",
+              "🟡": "[BETA ]",
+              "🔵": "[WORK ]",
+              "🟣": "[ R&D ]",
+              "⚪": "[PAUSE]",
+          }
 
           src = pathlib.Path(".github/now-building.yml")
           if not src.exists():
@@ -38,21 +47,24 @@ jobs:
           data = yaml.safe_load(src.read_text(encoding="utf-8")) or {}
           items = data.get("items", [])
 
+          width = max((len(it.get("name", "")) for it in items), default=0) + 2
+
           lines = []
           for it in items:
-              status = it.get("status", "🟢")
+              tag = TAGS.get(it.get("status", "🟢"), "[ RUN ]")
               name = it.get("name", "")
               desc = it.get("desc", "")
-              lines.append(f"- {status} **{name}** — {desc}")
+              lines.append(f"{tag} {name.ljust(width)}{desc}")
 
-          ts = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-          block = "\n".join(lines) + f"\n\n<sub>📅 Auto-régénéré le {ts}</sub>"
+          # Pas d'horodatage : il changerait à chaque run et produirait
+          # un commit toutes les N heures sans modification réelle.
+          block = "```log\n" + "\n".join(lines) + "\n```\n\n<sub>Section régénérée automatiquement depuis .github/now-building.yml</sub>"
 
           readme = pathlib.Path("README.md")
           content = readme.read_text(encoding="utf-8")
           new = re.sub(
               r"<!-- BUILDING:START -->[\s\S]*?<!-- BUILDING:END -->",
-              f"<!-- BUILDING:START -->\n{block}\n<!-- BUILDING:END -->",
+              lambda _: f"<!-- BUILDING:START -->\n{block}\n<!-- BUILDING:END -->",
               content,
               count=1,
           )

@@ -34,12 +34,16 @@ mesurables, des audits OWASP qui passent.
 ## `~ $ ps aux | grep building`
 
 <!-- BUILDING:START -->
-- 🟢 **CortiA** — bot de trading crypto, 13 microservices FastAPI, production stable
-- 🟢 **COMPANION** — UI web pour Claude Code à distance (ZeroTier + 2FA), v0.92.5
-- 🔵 **vbcreation-social** — suite multi-réseaux pilotée par Claude SDK local, phase 4 / 6
-- 🟣 **VBPaperclip** — superviseur d'instances Paperclip, Quota Guardian phase 5
+```log
+[ RUN ] CortiA             bot de trading crypto, 13 microservices FastAPI, production stable
+[ RUN ] COMPANION          UI web pour Claude Code à distance (ZeroTier + 2FA), v0.95.0
+[WORK ] vbcreation.io      site vitrine Next.js 16, itération continue
+[WORK ] vbcreation-social  suite multi-réseaux pilotée par Claude SDK local
+[WORK ] Engramme           agent de connaissance local-first, wiki Markdown exposé via MCP
+[ R&D ] VBPaperclip        superviseur d'instances Paperclip, orchestration multi-entreprises
+```
 
-<sub>📅 Auto-régénéré le 2026-08-09 06:37 UTC</sub>
+<sub>Section régénérée automatiquement depuis .github/now-building.yml</sub>
 <!-- BUILDING:END -->
 
 <br/>
@@ -53,6 +57,8 @@ drwxr-xr-x  vbcreation.io/       Site vitrine Next.js 16, hero 3D R3F
 drwxr-xr-x  Simtaux/             Simulateurs financiers, calculs Decimal.js
 drwxr-xr-x  Gantt-BTP/           Planning standalone, BTP suisse
 drwxr-xr-x  vbcreation-social/   Social piloté par Claude SDK local
+drwxr-xr-x  Engramme/            Mémoire longue local-first exposée en MCP
+drwxr-xr-x  VBPaperclip/         Superviseur d'entreprises agentiques
 ```
 
 ### → CortiA — Trading crypto IA
@@ -71,7 +77,7 @@ compliance:   MiCA · RGPD
 
 ```yaml
 stack:        Bun · Hono · React PWA · ZeroTier P2P
-version:      v0.92.5
+version:      v0.95.0
 auth:         2FA TOTP · TLS auto-signé
 offline:      IndexedDB queue
 audit:        17 findings OWASP corrigés
@@ -121,6 +127,26 @@ variantes:    7 par post
 sécurité:     callbacks HMAC signés · 127.0.0.1 only
 infra:        Docker hybride · systemd
 cost:         0 $ / mois
+```
+
+### → Engramme — Mémoire longue local-first
+
+```yaml
+stack:        Python 3.12 · FastAPI · MCP SDK Anthropic
+principe:     wiki Markdown à plat, aucun lock-in propriétaire
+exposition:   serveur MCP — lisible par n'importe quel LLM
+retrieval:    BM25 + RRF · dense opt-in (BGE-M3)
+clients:      Obsidian desktop / mobile · bot Telegram
+statut:       jalons J0 → J5 livrés · release privée en stabilisation
+```
+
+### → VBPaperclip — Superviseur d'entreprises agentiques
+
+```yaml
+rôle:         piloter et auditer des instances Paperclip depuis le terminal
+scope:        création société · budgets · organigramme agents · audits
+isolation:    multi-entreprises cloisonnées · Docker
+statut:       R&D
 ```
 
 <br/>

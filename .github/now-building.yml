@@ -3,6 +3,7 @@
 # entre <!-- BUILDING:START --> et <!-- BUILDING:END -->.
 #
 # Statuts : 🟢 production · 🟡 beta · 🔵 actif · 🟣 R&D · ⚪ pause
+# Rendu    : [ RUN ]      [BETA ]   [WORK ]   [ R&D ]  [PAUSE]
 
 items:
   - status: 🟢
@@ -11,12 +12,20 @@ items:
 
   - status: 🟢
     name: COMPANION
-    desc: "UI web pour Claude Code à distance (ZeroTier + 2FA), v0.92.5"
+    desc: "UI web pour Claude Code à distance (ZeroTier + 2FA), v0.95.0"
+
+  - status: 🔵
+    name: vbcreation.io
+    desc: "site vitrine Next.js 16, itération continue"
 
   - status: 🔵
     name: vbcreation-social
-    desc: "suite multi-réseaux pilotée par Claude SDK local, phase 4 / 6"
+    desc: "suite multi-réseaux pilotée par Claude SDK local"
+
+  - status: 🔵
+    name: Engramme
+    desc: "agent de connaissance local-first, wiki Markdown exposé via MCP"
 
   - status: 🟣
     name: VBPaperclip
-    desc: "superviseur d'instances Paperclip, Quota Guardian phase 5"
+    desc: "superviseur d'instances Paperclip, orchestration multi-entreprises"
