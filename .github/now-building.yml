@@ -39,8 +39,8 @@ items:
     repo: Tonton0/engramme
     desc: "agent de connaissance local-first, wiki Markdown exposé via MCP"
 
-  # Org vonboss-paperclip : visible par VonbossSin, pas par Tonton0 (404).
-  # Donne l'accès en lecture à Tonton0 sur l'org, puis retire ce pin.
+  # Repo hébergé hors de ce compte : le token du profil ne le voit pas (404).
+  # Le pin fige le statut tant que l'accès en lecture n'est pas accordé.
   - status: 🔵
     name: SwyftSite
     repo: vonboss-paperclip/swyftsite-app
