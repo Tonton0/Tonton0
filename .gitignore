@@ -1,0 +1,63 @@
+# ============================================================
+# Tonton0/Tonton0 — README de profil GitHub (depot PUBLIC)
+# ============================================================
+# Tout ce qui est commite ici est visible par n'importe qui.
+# Ne PAS ignorer .github/ : les workflows doivent rester versionnes.
+
+# --- Secrets / env ---
+.env
+.env.*
+!.env.example
+.envrc
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials/
+credentials*
+secrets/
+docker-secrets/
+.npmrc
+.pypirc
+.netrc
+
+# --- Runtime agents / IA ---
+.claude/logs/
+.claude/backups/
+.claude/agent-memory/
+.claude/settings.local.json
+.codex-runtime/
+.codex/auth.json
+.codex/installation_id
+.codex/cache/
+.codex/tmp/
+
+# --- Logs / temp ---
+*.log
+logs/
+tmp/
+tmp-*/
+*.tmp
+*.temp
+.cache/
+
+# --- Backups / snapshots ---
+*.bak
+*.bak.*
+*.snapshot.json
+*snapshot-*.json
+
+# --- Fichiers de test / brouillons ---
+test_file_*
+draft-*
+brouillon-*
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
