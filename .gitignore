@@ -1,63 +1,24 @@
-# ============================================================
-# Tonton0/Tonton0 — README de profil GitHub (depot PUBLIC)
-# ============================================================
-# Tout ce qui est commite ici est visible par n'importe qui.
-# Ne PAS ignorer .github/ : les workflows doivent rester versionnes.
+# Depot public : README de profil GitHub.
+# Contenu reel : markdown, images, workflows YAML. Rien d'autre.
 
-# --- Secrets / env ---
+# Secrets — filet de securite : un oubli ici coute cher, la regle ne coute rien.
 .env
 .env.*
-!.env.example
-.envrc
 *.key
 *.pem
-*.p12
-*.pfx
-*.jks
-*.keystore
-credentials/
-credentials*
 secrets/
-docker-secrets/
-.npmrc
-.pypirc
-.netrc
 
-# --- Runtime agents / IA ---
-.claude/logs/
-.claude/backups/
-.claude/agent-memory/
-.claude/settings.local.json
-.codex-runtime/
-.codex/auth.json
-.codex/installation_id
-.codex/cache/
-.codex/tmp/
-
-# --- Logs / temp ---
-*.log
-logs/
-tmp/
-tmp-*/
-*.tmp
-*.temp
-.cache/
-
-# --- Backups / snapshots ---
-*.bak
-*.bak.*
-*.snapshot.json
-*snapshot-*.json
-
-# --- Fichiers de test / brouillons ---
-test_file_*
-draft-*
-brouillon-*
-
-# --- OS / IDE ---
+# Fichiers generes par le systeme lors des copies d'images.
 .DS_Store
 Thumbs.db
+
+# Etat local des editeurs.
 .idea/
-.vscode/settings.json
+.vscode/
 *.swp
-*.swo
+
+# Brouillons et fichiers temporaires.
+test_*
+*.tmp
+*.bak
+*.log
